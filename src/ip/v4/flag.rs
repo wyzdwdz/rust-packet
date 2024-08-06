@@ -21,7 +21,7 @@ bitflags! {
 		const DONT_FRAGMENT = 0b010;
 
 		/// More fragments are waiting.
-		const MORE_FRAGMENTS = 0b100;
+		const MORE_FRAGMENTS = 0b001;
 	}
 }
 
